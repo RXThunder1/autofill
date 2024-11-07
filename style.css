@@ -1,0 +1,54 @@
+body, input, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Background Gradient */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);  /* Orange gradient */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Search Bar Styling */
+#search-bar {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+/* Results Dropdown Container */
+#results-container {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+    position: absolute;
+}
+
+/* Individual Result Suggestions */
+.suggestion {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Highlighted Suggestion */
+.suggestion.highlight {
+    background-color: #f0f0f0;
+}
+
+/* Hover Effect */
+.suggestion:hover {
+    background-color: #f0f0f0;
+}
